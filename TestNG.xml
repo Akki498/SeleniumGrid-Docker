@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Make My Trip Automation Suite"> 
+
+
+<!-- <listeners>
+	<listener class-name="com.crm.listener.ExtentReporterNG"></listener>
+</listeners> -->
+
+ <test name="bookFlight_Test">
+ <parameter name="className" value="Login Application"/>
+    <classes>
+        <class name="com.mmt.Flights_Tests.bookFlight_Test" ></class> 
+    </classes>
+
+</test>
+</suite> <!-- Suite -->

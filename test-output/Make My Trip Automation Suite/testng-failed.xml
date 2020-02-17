@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Make My Trip Automation Suite]">
+  <test thread-count="5" name="bookFlight_Test(failed)">
+    <parameter name="className" value="Login Application"/>
+    <classes>
+      <class name="com.mmt.Flights_Tests.bookFlight_Test">
+        <methods>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.mmt.Flights_Tests.bookFlight_Test -->
+    </classes>
+  </test> <!-- bookFlight_Test(failed) -->
+</suite> <!-- Failed suite [Make My Trip Automation Suite] -->
