@@ -29,7 +29,7 @@ public class bookFlight_Test extends TestBase {
 			
 		DesiredCapabilities dc = DesiredCapabilities.chrome();
 		
-		URL url = new URL("http://13.232.248.98:4444/wd/hub");
+		URL url = new URL("http://13.233.89.23:4444/wd/hub");
 		
 		RemoteWebDriver driver =new RemoteWebDriver(url, dc);
 		
